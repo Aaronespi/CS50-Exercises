@@ -16,6 +16,6 @@ def convert_to_snake(camel_var):
         else:
             snake_var += char
     #returns the var created on udercase all characters
-    return snake_var.lstrip()
+    return snake_var.lstrip("_")
 
 main()
